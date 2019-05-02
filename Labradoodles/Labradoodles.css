@@ -1,0 +1,38 @@
+/*
+* Erin Kelleher
+* Due Date
+* Labradoodles
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+header {
+        background-color: deepskyblue;
+}
+main {
+        background-color: darkturquoise;
+}
+footer {
+        background-color: lightgreen;
+}
+body {
+        background-color: lightcyan;
+        font-family: "Courier New", Courier, monospace; 
+}
+h1 {
+        font-size: 200%;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: overline underline;
+}
+#lab { float: left; width: 300px; height: 200px; }
+#labfig { float: right; }
+
+a:link { color:lightpink; }
+a:hover, a:focus { color:fuchsia; }
